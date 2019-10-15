@@ -27,6 +27,12 @@ function TopNavigationBase({ history }) {
         <Link to="/" className={classNames(navLinkStyle, 'pa3')}>
           Home
         </Link>
+        <Link to="/example1" className={classNames(navLinkStyle, 'pa3')}>
+          Example One
+        </Link>
+        <Link to="/example2" className={classNames(navLinkStyle, 'pa3')}>
+          Example Two
+        </Link>
         <Link to="/about" className={classNames(navLinkStyle, 'pa3')}>
           About
         </Link>
