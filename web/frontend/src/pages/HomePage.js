@@ -19,7 +19,7 @@ export function HomePage() {
   const [quackFormText, setQuackFormText] = useState('');
   const submitQuack = ({ text }) => {
     console.log('quack:', text);
-    setQuackFormText('');
+    setQuackFormText('')
   };
 
   const quackFormState = {
